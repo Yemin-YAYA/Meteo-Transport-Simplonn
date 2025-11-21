@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Météo Direct</title>
+    <link rel="stylesheet" href="css/style.css"> 
+</head>
+
+<body>
+   <main class="container">
+        <section class="meteo-card">
+            <h1 class="city">Métèo à</h1>
+            <div class="meteo-row">
+                <div class="meteo-item1">
+                    <img src="" alt="Icône météo" class="weather-icon">        
+                    <p class="description"></p>         
+                </div>
+                <div class="meteo-item2">
+                    <span class="temp-logo">
+                        <img src="images/thermo.png" alt="Icône température">
+                        <span class="temp">°C</span>
+                    </span>
+                    <span class="wind-logo">
+                        <img src="images/wind.png" alt="Icône vent">
+                        <span class="wind">Vent: km/h</span>
+                    </span>
+                </div>
+            </div>
+            <span class="humidity-logo">
+                <img src="images/goutte.png" alt="Icône humidité">
+                <span class="humidity">Humidité : --%</span>
+            </span>
+            <div>
+                <span class="refresh-logo">
+                    <img src="images/refresh.png" alt="Icône mise à jour">
+                    <span id="update-time">Dernière mise à jour : --:--</span>
+                </span>        
+            </div>
+        </section>
+   </main>
+   <script src="js/meteo.js"></script>
+</body>
+
+</html>

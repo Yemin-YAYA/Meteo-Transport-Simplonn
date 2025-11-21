@@ -1,37 +1,36 @@
 body {
   margin: 0;
   padding: 0;
-  background: url('../images/background.jpg') no-repeat center center fixed; 
+  background: url("../images/background.jpg") no-repeat center center fixed;
   background-size: cover;
-  font-family: 'Open Sans', sans-serif; 
+  font-family: "Open Sans", sans-serif;
 }
 
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; 
+  height: 100vh;
 }
 .meteo-card {
   padding: 20px 80px;
   border-radius: 20px;
   background-color: rgba(0, 0, 0, 0.768);
-  box-shadow: 0 10px 20px rgba(215, 209, 209, 0.521); 
-  color:white;
+  box-shadow: 0 10px 20px rgba(215, 209, 209, 0.521);
+  color: white;
   text-align: left;
-  
 }
 
-.city { 
-  font-size:35px;
-  text-align:  center;
+.city {
+  font-size: 35px;
+  text-align: center;
 }
 
-.temp { 
+.temp {
   font-size: 20px;
 }
 
-.meteo-row{
+.meteo-row {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -42,10 +41,9 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(10px);
   padding: 10px;
-
 }
 
-.meteo-item1{
+.meteo-item1 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -53,69 +51,67 @@ body {
   gap: 1px;
 }
 
-.meteo-item2{
+.meteo-item2 {
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   gap: 25px;
-
 }
 
-.temp-logo{
+.temp-logo {
   display: inline-flex;
-  align-items: center;  
+  align-items: center;
 }
 .temp-logo img {
   width: 35px;
-  height: 30px; 
+  height: 30px;
 }
 
 .weather-icon {
-   width: 50px;
-   height: 50px;
- }
+  width: 50px;
+  height: 50px;
+}
 
 .humidity-logo {
   display: inline-flex;
-  align-items: center; 
+  align-items: center;
   gap: 5px;
 }
 
 .humidity-logo img {
   width: 20px;
-  height: 20px; 
+  height: 20px;
   margin-top: 20px;
-
 }
 
 .humidity {
   text-align: left;
-  margin-top: 20px;   
+  margin-top: 20px;
   font-size: 14px;
   font-weight: bold;
 }
-.wind-logo{
+.wind-logo {
   display: inline-flex;
-  align-items: center; 
+  align-items: center;
   gap: 5px;
 }
 .wind-logo img {
   width: 35px;
-  height: 30px;     
-  }
-  .wind {
-    font-weight: bold;
-  }
-.refresh-logo{
+  height: 30px;
+}
+.wind {
+  font-weight: bold;
+}
+.refresh-logo {
   display: inline-flex;
-  align-items: center; 
+  align-items: center;
   gap: 5px;
 }
 .refresh-logo img {
   width: 20px;
-  height: 20px;     
-  }
+  height: 20px;
+}
 #update-time {
-    font-weight: bold;
-  }
+  font-weight: bold;
+}

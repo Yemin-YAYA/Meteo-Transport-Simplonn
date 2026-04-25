@@ -54,6 +54,4 @@ Les données météo sont mises à jour automatiquement **toutes les heures**
 ## ✔️ 6. Débugage console
 Les éventuelles erreurs sont affichées via la console de l'inspecter.
 
-# 🙋 Auteur
 
-Projet réalisé dans le cadre du brief CDA pour l'alternance Niort, par Yémin YAYA
